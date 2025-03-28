@@ -1,3 +1,4 @@
+from telethon import TelegramClient
 from asyncio import create_task, create_subprocess_exec, create_subprocess_shell, run as asyrun, all_tasks, gather, sleep as asleep
 from aiofiles import open as aiopen
 from pyrogram import idle
